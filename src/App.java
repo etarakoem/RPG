@@ -7,9 +7,11 @@ public class App {
         player1.hitHealth(10);
         player1.attUp(20);
 
+        game1.showHealth();
         System.out.println(player1);
         player1.attDown(20);
         player1.heal(10);
         System.out.println(player1);
+        game1.showHealth();
     }
 }
