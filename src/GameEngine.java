@@ -6,7 +6,7 @@ public class GameEngine {
         _player1 = player1;
         _player2 = player2;
     }
-    public static void showHealth(){
+    public void showHealth(){
         String health1 = "";
         for (int i = 0; i< (int)_player1.getHealth(); i++){
             health1.concat("#");

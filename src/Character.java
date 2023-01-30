@@ -49,6 +49,18 @@ public class Character {
         _health = _health - health;
 
     }
-
+    public void heal( double heal){
+        _health = _health + heal;
+    }
+    public void attUp(double amount){
+        _att = _att + amount;
+    }
+    public void attDown(double amount){
+        _att = _att - amount;
+    }
+ 
+    public String toString(){
+        return "Name: "+_name+"\nHealth: "+_health+"\nAttack damage: "+_att+"\nDefend: "+_def+"\nLevel: "+_lvl;
+    }
 
 }
